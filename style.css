@@ -363,6 +363,7 @@ section {
 .project-card {
   background: var(--bg2);
   border: 1px solid var(--border);
+  margin-top: 15px;
   border-radius: 12px;
   padding: 36px;
   display: flex;
@@ -400,7 +401,7 @@ section {
   font-weight: 600;
   letter-spacing: 0.1em;
   color: var(--accent);
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 }
 .project-title {
   font-family: 'Syne', sans-serif;
@@ -469,8 +470,8 @@ section {
   justify-content: center;
 }
 .preview-ui {
-  width: 85%;
-  height: 85%;
+  width: 380px;
+  height: 380px;
   position: relative;
 }
 
@@ -661,6 +662,7 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
+
 .footer-copy {
   font-size: 13px;
   color: var(--muted);
@@ -674,6 +676,13 @@ footer {
   align-items: center;
   gap: 6px;
   transition: color 0.2s;
+}
+.footer-back{
+  border: 1px solid #1a5cdb;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 20px;
+  color: var(--accent2);
 }
 .footer-back:hover { color: var(--text); }
 
