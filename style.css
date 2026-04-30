@@ -55,6 +55,7 @@ nav {
   border-bottom: 1px solid transparent;
   transition: all 0.4s ease;
   backdrop-filter: blur(0px);
+  width:100%;
 }
 nav.scrolled {
   background: rgba(10,10,15,0.85);
@@ -766,6 +767,7 @@ footer {
 }
 @media (max-width: 600px){
   .back{
-    left:50%;
+    left:58%;
+    top:95%
   }
   }
