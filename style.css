@@ -763,3 +763,8 @@ footer {
   .contact-inner { padding: 36px 28px; }
   .hero-scroll { display: none; }
 }
+@media (max-width: 600px){
+  .back{
+    left:70%;
+  }
+  }
